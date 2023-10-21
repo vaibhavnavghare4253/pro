@@ -1,0 +1,129 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff; /* White background */
+    font-family: Arial, sans-serif;
+}
+
+.search-bar {
+    text-align: center;
+    padding: 20px;
+}
+
+.search-bar input[type="text"] {
+    position: relative;
+    width: 200px;
+    padding: 5px;
+    
+}
+
+.search-bar button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.oval-box {
+    width: 350px;
+    height: 200px;
+    background-color: #01080f;
+    color: #fff;
+    border-radius: 40%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-box {
+    text-align: center;
+}
+
+.info-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-size: 1rem;
+}
+
+/* #abc{
+    width:100%;
+    height:100vh;
+    
+  } */
+  nav{
+    width: 100%;
+    height: 50px;
+    background-color: #0005;
+    line-height: 50px;
+  }
+  nav ul{
+    float: right;
+    margin-right: 30px;
+  }
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+  }
+  nav ul li:hover{
+    background-color:#088;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+  }
+
+  #mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #FQA {
+    top: 220px;
+    height: 80px;
+    background-color: #a9dfcb;
+  }
+  
+  #live {
+    top: 280px;
+    background-color: #85bcea;
+  }
+  
+  #tut {
+    top: 340px;
+    height: 80px;
+    background-color: #696464;
+  }
+  
+  #term {
+    top: 400px;
+    background-color: #1c1a1a
+  }
